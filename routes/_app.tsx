@@ -1,6 +1,6 @@
 import { asset, Head } from "$fresh/runtime.ts";
 import { defineApp } from "$fresh/server.ts";
-import { Context } from "deco/deco.ts";
+import { Context } from "@deco/deco";
 import Theme from "../sections/Theme/Theme.tsx";
 
 export default defineApp(async (_req, ctx) => {
